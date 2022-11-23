@@ -15,9 +15,22 @@ from openpyxl.chart import BarChart, Reference
 from openpyxl.styles import Font, PatternFill
 import openpyxl
 import warnings
+import signal
+import sys
 
 
 warnings.filterwarnings("ignore")
+
+def handler_signal(signal,frame):
+
+    # Salida controlada del programa en caso de pulsar 
+    # control C
+
+    print("\n\n [!] out .......\ n")
+
+    sys.exit(1)
+
+signal.signal(signal.SIGINT,handler_signal)
 
 
 def extract_csv():
