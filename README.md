@@ -15,4 +15,4 @@ Y tras su ejecución el programa genera los siguientes ficheros de salida:
 
 ### Ejecución del programa:
 
-Primero se deberá hacer un pip install requirements.txt para que se descarguen todas las librerías necesarias para el programa. Posteriormente ya se podrá ejecutar el fichero "pizzas5.py" que tardará aproximadamente un minuto en devolver la predicción.
+Primero se deberá hacer un pip install -r requirements.txt para que se descarguen todas las librerías necesarias para el programa. Posteriormente ya se podrá ejecutar el fichero "pizzas5.py" que tardará aproximadamente un minuto en devolver la predicción.
